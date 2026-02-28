@@ -52,8 +52,8 @@ dev = [
 [project.urls]
 Homepage = "https://usetransactional.com"
 Documentation = "https://usetransactional.com/docs"
-Repository = "https://github.com/transactional-dev/transactional"
-Issues = "https://github.com/transactional-dev/transactional/issues"
+Repository = "https://github.com/TransactionalHQ/python"
+Issues = "https://github.com/TransactionalHQ/python/issues"
 
 [tool.hatch.build.targets.sdist]
 include = [
