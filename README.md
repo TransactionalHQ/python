@@ -1,5 +1,8 @@
 # Transactional Python SDK
 
+[![PyPI version](https://badge.fury.io/py/usetransactional.svg)](https://pypi.org/project/usetransactional/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 Official Python SDK for the Transactional API - Email, SMS, and Communication APIs.
 
 ## Installation
