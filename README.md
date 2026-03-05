@@ -8,13 +8,13 @@ Official Python SDK for the Transactional API - Email, SMS, and Communication AP
 ## Installation
 
 ```bash
-pip install transactional
+pip install usetransactional
 ```
 
 ## Quick Start
 
 ```python
-from transactional import Transactional
+from usetransactional import Transactional
 
 # Initialize the client
 client = Transactional(api_key="tr_live_xxxxx")
@@ -159,8 +159,8 @@ client.bounces.activate("user@example.com")
 ## Error Handling
 
 ```python
-from transactional import Transactional
-from transactional.errors import (
+from usetransactional import Transactional
+from usetransactional.errors import (
     TransactionalError,
     AuthenticationError,
     NotFoundError,
@@ -191,7 +191,7 @@ except TransactionalError as e:
 
 ```python
 import asyncio
-from transactional import AsyncTransactional
+from usetransactional import AsyncTransactional
 
 async def main():
     client = AsyncTransactional(api_key="tr_live_xxxxx")
@@ -213,7 +213,7 @@ asyncio.run(main())
 ## Configuration
 
 ```python
-from transactional import Transactional
+from usetransactional import Transactional
 
 client = Transactional(
     api_key="tr_live_xxxxx",
